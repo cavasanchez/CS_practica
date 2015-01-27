@@ -35,7 +35,7 @@ Quedando asi:
 $ cd <path de la carpeta>
 $ git pull
 
-
+ÑANGA
 ¿CÓMO PUEDO MODIFICAR UN ARCHIVO?
 Existen varias formas de actualizar el repositorio:
 Mediante el comando git add añadimos manualmente los archivos que hemos modificado. Y posteriormente con el comando git commit añadimos un comentario para lo que se haya actualizado.
