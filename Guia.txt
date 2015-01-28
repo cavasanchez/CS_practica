@@ -61,4 +61,7 @@ $ git push origin master
 
 NUEVA LINEA
 
+CONFIGURACIÓN DE SSH KEY (para no tener q meter user/pass con cada accion)
+
+https://help.github.com/articles/generating-ssh-keys/
 
