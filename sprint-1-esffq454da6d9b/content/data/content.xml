@@ -1,0 +1,1272 @@
+<zuiprezi>
+  <version>8</version>
+  <zui-table>
+    <settings>
+      
+      <autoplay>
+        
+        <delay>4000</delay>
+        
+      </autoplay>
+      
+      <bounds x="-52163.5061431399" y="-26299.85010302335" width="104327.0122862798" height="52599.7002060467"/>
+      <aspectratio>off</aspectratio>
+      <languages>
+        <language>es</language>
+      </languages>
+      <mode type="normal"/>
+    </settings>
+    <object id="1_24309637" type="button" x="-5.6813271649041495" y="5.684341886080799e-13" r="0" s="78.2500746891501" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>1197.448853773701</w>
+        <h>673.5649802477071</h>
+      </size>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+      <layout>
+        <frametype value="OVERVIEW"/>
+      </layout>
+    </object>
+    <object id="4_24309637" type="button" x="2144.356450801947" y="-10764.431332922011" r="0" s="21.00046204918418" class="roundrect">
+      <type>roundrect</type>
+      <size>
+        <w>793.6562887770576</w>
+        <h>502.5933319240241</h>
+      </size>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="32_24309637" type="button" x="-11509.163480529474" y="-8461.337495495243" r="0" s="7.476347798379634" class="roundrect">
+      <type>roundrect</type>
+      <size>
+        <w>475.8166384480021</w>
+        <h>823.0890280897099</h>
+      </size>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="6_24309637" type="shape" x="-11510.553502904986" y="-5439.333457447254" r="0" s="4.7225563665760735" class="circle poly2">
+      <style borderThickness="0"/>
+      <style borderThickness="0"/>
+      <geom type="circle">
+        <r>21.2744942020472</r>
+      </geom>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="9_24309637" type="button" x="-20305.03473849828" y="-6773.548818077071" r="0" s="7.653229609761" class="roundrect">
+      <type>roundrect</type>
+      <size>
+        <w>793.6562887770576</w>
+        <h>454.40897159593607</h>
+      </size>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="10_24309637" type="shape" x="-23270.92060420007" y="-6773.002444308177" r="0" s="5.218763624226121" class="circle poly2">
+      <style borderThickness="0"/>
+      <style borderThickness="0"/>
+      <geom type="circle">
+        <r>21.2744942020472</r>
+      </geom>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="12_24309637" type="shape" x="2071.1539867945853" y="-5696.685751745936" r="0" s="36.69296441471593" class="line2">
+      <geom type="line">
+        <sp>-50.24358689364975 0</sp>
+        <ep>50.24358689364975 0</ep>
+        <t>8</t>
+      </geom>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="17_24309637" type="button" x="480.1759002849669" y="-995.9165589350556" r="0" s="7.653229609761003" class="roundrect">
+      <type>roundrect</type>
+      <size>
+        <w>793.6562887770576</w>
+        <h>502.5933319240241</h>
+      </size>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="18_24309637" type="shape" x="-2494.8978575589013" y="-996.3554626618106" r="0" s="5.3910726328870355" class="circle poly2">
+      <style borderThickness="0"/>
+      <style borderThickness="0"/>
+      <geom type="circle">
+        <r>21.2744942020472</r>
+      </geom>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="19_24309637" type="button" x="18165.58665069156" y="-7188.467774585659" r="0" s="13.693492257232537" class="roundrect">
+      <type>roundrect</type>
+      <size>
+        <w>793.6562887770576</w>
+        <h>502.5933319240241</h>
+      </size>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="20_24309637" type="shape" x="12841.270053967237" y="-7190.312348063967" r="0" s="7.461725118267942" class="circle poly2">
+      <style borderThickness="0"/>
+      <style borderThickness="0"/>
+      <geom type="circle">
+        <r>21.2744942020472</r>
+      </geom>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="33_106267363" type="image" x="-20305.232513737465" y="-6523.887287253312" r="0" s="3.878033305568468">
+      <source w="1366" h="768">3030533503<mask x="64" y="124" w="1027" h="565"/>
+      <url>3030533503.png</url></source>
+      <sourceUrl>pantallazo%20jira1.png</sourceUrl>
+    <resource><id>3030533503</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/e/7/8/09aafd5b4e36a3923fd5bcfa73d00cd7616c9.png</url></resource></object>
+    <object id="37_24309637" type="text" x="-20297.69532966196" y="-7913.390722133125" r="0" s="13.652141009970432" class="head head-background">
+      <height>28.8</height>
+      <width>388.04545454545456</width>
+      <p align="center">
+        <text><![CDATA[Product Backlog]]></text>
+      </p>
+    </object>
+    <object id="0_24309637" type="text" x="2142.5451725098105" y="-14555.41282825472" r="0" s="37.63444414020727" class="head head-background">
+      <height>28.8</height>
+      <width>388.04545454545456</width>
+      <p align="center">
+        <text><![CDATA[GRUPO 4]]></text>
+      </p>
+    </object>
+    <object id="26_24309637" type="text" x="9.569689859344197e-13" y="18890.311132933755" r="0" s="222.1270385151177" class="head head-background">
+      <height>28.8</height>
+      <width>461.6727286497336</width>
+      <p align="center">
+        <text><![CDATA[SPRINT 1- CALIDAD SOFTWARE]]></text>
+      </p>
+    </object>
+    <object id="27_24309637" type="text" x="-21513.11207315238" y="-9655.82494707016" r="0" s="110.8581260335472" class="body">
+      <height>28.8</height>
+      <width>0</width>
+      <p>
+        <text><![CDATA[]]></text>
+      </p>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="28_106267363" type="image" x="-1101.9499999999998" y="-1556.4430366286042" r="0" s="3.899532800084017">
+      <source w="548" h="185">3030482107<url>3030482107.PNG</url></source>
+      <sourceUrl>linked1.PNG</sourceUrl>
+    <resource><id>3030482107</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/8/e/b/66598797eeabfdec0cecb8691a645109f9c6a.PNG</url></resource></object>
+    <object id="29_106267363" type="image" x="1566.3999999999992" y="-1701.5930366286043" r="0" s="4.04044389194522">
+      <source w="511" h="180">3030482989<url>3030482989.PNG</url></source>
+      <sourceUrl>linked2.PNG</sourceUrl>
+    <resource><id>3030482989</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/9/4/9/8c6a79d112ed3b7963cb59cc825637d32d41e.PNG</url></resource></object>
+    <object id="23_24309637" type="text" x="479.63774916281386" y="-2312.9092045067064" r="0" s="13.652141009970448" class="head head-background">
+      <height>28.8</height>
+      <width>388.04545454545456</width>
+      <p align="center">
+        <text><![CDATA[Linkedin]]></text>
+      </p>
+    </object>
+    <object id="36_106267363" type="image" x="16018.95" y="-8171.493036628601" r="0" s="14.111135357661984">
+      <source w="345" h="87">3030553513<url>3030553513.PNG</url></source>
+      <sourceUrl>blog2.PNG</sourceUrl>
+    <resource><id>3030553513</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/3/5/7/8f419718cb5b1cc382b2e588091a25236f9ab.PNG</url></resource></object>
+    <object id="28_24309637" type="text" x="18165.53227020291" y="-9546.564143333087" r="0" s="24.42700621137056" class="head head-background">
+      <height>28.8</height>
+      <width>388.04545454545456</width>
+      <p align="center">
+        <text><![CDATA[Blogs]]></text>
+      </p>
+    </object>
+    <object id="1_106267363" type="button" x="9548.35000000002" y="533.8000000000013" r="0" s="10.901040449684094" class="roundrect">
+      <type>roundrect</type>
+      <size>
+        <w>793.6562887770576</w>
+        <h>502.5933319240241</h>
+      </size>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="0_106267363" type="image" x="6919.127964465747" y="-38.70416704526042" r="-7.671265139078338e-17" s="2.0214205540832397">
+      <source w="1366" h="768">2994190855<mask x="173" y="0" w="1193" h="768"/>
+      <url>2994190855.jpg</url></source>
+      <sourceUrl>imagen2.jpg</sourceUrl>
+    <resource><id>2994190855</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/d/a/36302c42d1d938d646d66b744f26e8641cb09.jpg</url></resource></object>
+    <object id="33_24309637" type="text" x="-11518.788396883609" y="-10844.68060127284" r="0" s="16.73907929571066" class="head head-background">
+      <height>28.8</height>
+      <width>166.22202472612082</width>
+      <p align="center">
+        <text><![CDATA[Sprint Backlog]]></text>
+      </p>
+    </object>
+    <object id="35_24309637" type="button" x="-11675.180710047918" y="1669.5875977542737" r="0" s="19.846845911877946" class="roundrect">
+      <type>roundrect</type>
+      <size>
+        <w>793.6562887770576</w>
+        <h>502.5933319240241</h>
+      </size>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="36_24309637" type="shape" x="-19435.672130321465" y="1669.5921933546863" r="0" s="10.814750969084232" class="circle poly2">
+      <style borderThickness="0"/>
+      <style borderThickness="0"/>
+      <geom type="circle">
+        <r>21.2744942020472</r>
+      </geom>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="38_24309637" type="text" x="-11676.576278055589" y="-1745.7222043193733" r="0" s="35.4036077326804" class="head head-background">
+      <height>28.8</height>
+      <width>388.04545454545456</width>
+      <p align="center">
+        <text><![CDATA[Twitter]]></text>
+      </p>
+    </object>
+    <object id="0" type="text" x="2126.103304433144" y="-10230.51839311116" r="0" s="30.80585295676603" class="body">
+      <height>201.60000000000002</height>
+      <width>-292.08000000000004</width>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Óscar Sánchez Sánchez]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Jose María Sanz Gayoso]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Carlos Vazquez Sánchez]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Jose Vicente Mellado ]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[David Villatobas Fernández]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Carlos Santos Morales]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[David Vicente Gonzalez]]></text>
+      </p>
+    </object>
+    <object id="1" type="button" x="26968.35000000003" y="7130.350000000011" r="0" s="26.73083550798569" class="roundrect">
+      <type>roundrect</type>
+      <size>
+        <w>793.6562887770576</w>
+        <h>502.5933319240241</h>
+      </size>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="2" type="shape" x="16574.84128316378" y="7126.749239192996" r="0" s="14.565907877654585" class="circle poly2">
+      <style borderThickness="0"/>
+      <style borderThickness="0"/>
+      <geom type="circle">
+        <r>21.2744942020472</r>
+      </geom>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="3" type="text" x="26968.243844764424" y="2527.1498111166343" r="0" s="47.68354724440864" class="head head-background">
+      <height>28.8</height>
+      <width>388.04545454545456</width>
+      <p align="center">
+        <text><![CDATA[You Tube]]></text>
+      </p>
+    </object>
+    <object id="5" type="button" x="3353.2720062634467" y="9274.38614729016" r="0" s="14.368984096392632" class="roundrect">
+      <type>roundrect</type>
+      <size>
+        <w>793.6562887770576</w>
+        <h>502.5933319240241</h>
+      </size>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="6" type="shape" x="-2233.689965550809" y="9272.45058209784" r="0" s="7.829807586112019" class="circle poly2">
+      <style borderThickness="0"/>
+      <style borderThickness="0"/>
+      <geom type="circle">
+        <r>21.2744942020472</r>
+      </geom>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="16_106267363" type="image" x="120.64999999999988" y="8605.449999999993" r="0" s="3.644936850177373">
+      <source w="1010" h="657">2998438870<url>2998438870.PNG</url></source>
+      <sourceUrl>expoqa.PNG</sourceUrl>
+    <resource><id>2998438870</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/6/7/e/d161cce780c3210175f90a6245d25c8593f0c.PNG</url></resource></object>
+    <object id="25_106267363" type="image" x="6858.049999999994" y="8569.949999999993" r="0" s="3.934654480742351">
+      <source w="790" h="641">2998456759<url>2998456759.PNG</url></source>
+      <sourceUrl>Captur.PNG</sourceUrl>
+    <resource><id>2998456759</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/8/b/b/8f012ae0bc3ff4928a4ea43f58c0a9d8e0b23.PNG</url></resource></object>
+    <object id="7" type="text" x="3353.214943217597" y="6799.966285373878" r="0" s="25.631975918216455" class="head head-background">
+      <height>28.8</height>
+      <width>388.04545454545456</width>
+      <p align="center">
+        <text><![CDATA[Conferencias]]></text>
+      </p>
+    </object>
+    <object id="13" type="button" x="30642.71429089833" y="-15801.058447828567" r="0" s="13.463995019295348" class="roundrect">
+      <type>roundrect</type>
+      <size>
+        <w>793.6562887770576</w>
+        <h>502.5933319240241</h>
+      </size>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="14" type="shape" x="25407.631027051968" y="-15802.872107022162" r="0" s="7.336669707075475" class="circle poly2">
+      <style borderThickness="0"/>
+      <style borderThickness="0"/>
+      <geom type="circle">
+        <r>21.2744942020472</r>
+      </geom>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="15" type="text" x="30642.66082180408" y="-18119.634101680836" r="0" s="24.017619741412677" class="head head-background">
+      <height>28.8</height>
+      <width>388.04545454545456</width>
+      <p align="center">
+        <text><![CDATA[Aplicación Java]]></text>
+      </p>
+    </object>
+    <object id="18" type="button" x="-29696.42115291216" y="-995.9773587544578" r="0" s="13.463995019295348" class="roundrect">
+      <type>roundrect</type>
+      <size>
+        <w>793.6562887770576</w>
+        <h>502.5933319240241</h>
+      </size>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="19" type="shape" x="-34894.94149500541" y="-1042.695408278287" r="0" s="7.336669707075474" class="circle poly2">
+      <style borderThickness="0"/>
+      <style borderThickness="0"/>
+      <geom type="circle">
+        <r>21.2744942020472</r>
+      </geom>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="20" type="text" x="-29659.9117002533" y="-3359.457402936958" r="0" s="24.017619741412677" class="head head-background">
+      <height>28.8</height>
+      <width>388.04545454545456</width>
+      <p align="center">
+        <text><![CDATA[GitHub]]></text>
+      </p>
+    </object>
+    <object id="22" type="button" x="34203.299999999996" y="-6271.893036628603" r="0" s="17.15973581460991" class="roundrect">
+      <type>roundrect</type>
+      <size>
+        <w>793.3980276153005</w>
+        <h>445.0960629620123</h>
+      </size>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="23" type="shape" x="27533.4511551299" y="-5780.885555595124" r="0" s="9.350516971526297" class="circle poly2">
+      <style borderThickness="0"/>
+      <style borderThickness="0"/>
+      <geom type="circle">
+        <r>21.2744942020472</r>
+      </geom>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="45_106267363" type="image" x="34206.2" y="-6831.043036628603" r="0" s="6.412330059825891">
+      <source w="663" h="379">3030583363<mask x="0" y="0" w="636" h="379"/>
+      <url>3030583363.jpg</url></source>
+      <sourceUrl>IMG-20150209-WA0005.jpg</sourceUrl>
+    <resource><id>3030583363</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/a/b/1/41f6cf858acda4e4cfb0d406bc47d24c63d8d.jpg</url></resource></object>
+    <object id="46_106267363" type="image" x="38381.33587268629" y="-4685.166723806167" r="0" s="4.632672497929578">
+      <source w="1280" h="719">3030587368<mask x="0" y="45" w="894" h="618"/>
+      <url>3030587368.jpg</url></source>
+      <sourceUrl>IMG-20150209-WA0006.jpg</sourceUrl>
+    <resource><id>3030587368</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/e/7/f/33df6e3b39d3f8ef66c03ba46eae24d15fb44.jpg</url></resource></object>
+    <object id="24" type="text" x="34205.44770079256" y="-8733.57706481644" r="0" s="30.610231886432373" class="head head-background">
+      <height>28.8</height>
+      <width>388.04545454545456</width>
+      <p align="center">
+        <text><![CDATA[POM Maven]]></text>
+      </p>
+    </object>
+    <object id="26" type="button" x="-24179.5195630654" y="-14235.385283400969" r="0" s="17.82498676301466" class="roundrect">
+      <type>roundrect</type>
+      <size>
+        <w>791.6728253956998</w>
+        <h>512.8470899222135</h>
+      </size>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="27" type="shape" x="-31092.57015260122" y="-14146.399837019011" r="0" s="9.713019072408668" class="circle poly2">
+      <style borderThickness="0"/>
+      <style borderThickness="0"/>
+      <geom type="circle">
+        <r>21.2744942020472</r>
+      </geom>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="28" type="text" x="-24161.912746555387" y="-17213.561688212823" r="0" s="31.79693347749072" class="head head-background">
+      <height>28.8</height>
+      <width>388.04545454545456</width>
+      <p align="center">
+        <text><![CDATA[¿Dudas?]]></text>
+      </p>
+    </object>
+    <object id="30" type="image" x="-16641.30736777044" y="534.0895599546394" r="0" s="7.389270777913069">
+      <source w="595" h="396">2984788930<url>2984788930.PNG</url></source>
+      <sourceUrl>Jeff%20Sutherland.PNG</sourceUrl>
+    <resource><id>2984788930</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/b/1/e/de98f8311e08d053221182252445a46fef132.PNG</url></resource></object>
+    <object id="33" type="image" x="-8298.658707707033" y="3906.9200593337446" r="0" s="8.826595213651311">
+      <source w="594" h="408">2984791831<url>2984791831.PNG</url></source>
+      <sourceUrl>Mike%20Conh.PNG</sourceUrl>
+    <resource><id>2984791831</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/0/9/aca5adc3ca2274adb0b2ed53fd8da9525b86f.PNG</url></resource></object>
+    <object id="34" type="image" x="-14416.39086108579" y="3659.626099015718" r="0" s="11.8029734263935">
+      <source w="590" h="289">2984792458<url>2984792458.PNG</url></source>
+      <sourceUrl>Tio%20Bob.PNG</sourceUrl>
+    <resource><id>2984792458</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/8/3/e/247b88bff516adcfc1361883eaeedf8cecc94.PNG</url></resource></object>
+    <object id="5_106267363" type="image" x="21881.800000000032" y="6741.050000000009" r="0" s="11.598334747354968">
+      <source w="856" h="501">2986046245<url>2986046245.PNG</url></source>
+      <sourceUrl>cisq.PNG</sourceUrl>
+    <resource><id>2986046245</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/c/6/5/cc4d7d2c46c2e4abdaafcfeabb50c2da44529.PNG</url></resource></object>
+    <object id="6_106267363" type="image" x="26970.30000000004" y="5675.95000000001" r="0" s="7.4678799944498735">
+      <source w="854" h="504">2986131097<url>2986131097.PNG</url></source>
+      <sourceUrl>rttstv.PNG</sourceUrl>
+    <resource><id>2986131097</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/b/6/6/a856d2bd077f79ddc501022eb88a066bf5598.PNG</url></resource></object>
+    <object id="7_106267363" type="image" x="33387.85000000004" y="5675.95000000001" r="0" s="7.2038242914345485">
+      <source w="855" h="517">2986131433<url>2986131433.PNG</url></source>
+      <sourceUrl>teckwell.PNG</sourceUrl>
+    <resource><id>2986131433</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/4/3/db91a11f4d6665c8ac1a3652f5c46c17e7ce4.PNG</url></resource></object>
+    <object id="31" type="image" x="-11692.8001337065" y="896.0166638204179" r="0" s="9.476209353151818">
+      <source w="591" h="350">2984789767<url>2984789767.PNG</url></source>
+      <sourceUrl>Creadora%20lean.PNG</sourceUrl>
+    <resource><id>2984789767</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/c/6/8/f67e950b68bdc8a5f30bebc249386af243207.PNG</url></resource></object>
+    <object id="32" type="image" x="-7525.556908399883" y="896.0166638204179" r="0" s="8.579629149119869">
+      <source w="589" h="392">2984790463<url>2984790463.PNG</url></source>
+      <sourceUrl>Jason%20.PNG</sourceUrl>
+    <resource><id>2984790463</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/1/1/e/f5b774281e094d19c0c96f26a601f0ab88deb.PNG</url></resource></object>
+    <object id="8_106267363" type="image" x="26968.90000000004" y="9274.150000000012" r="0" s="9.912249000063747">
+      <source w="1061" h="179">2986164052<url>2986164052.PNG</url></source>
+      <sourceUrl>qasymphony.PNG</sourceUrl>
+    <resource><id>2986164052</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/9/f/2/0f42aa10a8104200da92e05fd1b6500df0d21.PNG</url></resource></object>
+    <object id="11_106267363" type="image" x="26967.950000000033" y="11934.800000000016" r="0" s="11.14738756468267">
+      <source w="1061" h="180">2986171357<url>2986171357.PNG</url></source>
+      <sourceUrl>qualitylab.PNG</sourceUrl>
+    <resource><id>2986171357</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/c/4/6/7d6ea0a39be57c11d3d0c981b1cbc8eca85c0.PNG</url></resource></object>
+    <object id="13_106267363" type="button" x="18248.600000000064" y="-18459.34999999998" r="0" s="15.842476619679806" class="roundrect">
+      <type>roundrect</type>
+      <size>
+        <w>475.8166384480021</w>
+        <h>823.0890280897099</h>
+      </size>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="14_106267363" type="shape" x="18245.654524805657" y="-12055.684786922357" r="0" s="10.00715735011909" class="circle poly2">
+      <style borderThickness="0"/>
+      <style borderThickness="0"/>
+      <geom type="circle">
+        <r>21.2744942020472</r>
+      </geom>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="15_106267363" type="text" x="18228.204679126964" y="-23509.684528061956" r="0" s="35.47032314825393" class="head head-background">
+      <height>28.8</height>
+      <width>166.22202472612082</width>
+      <p align="center">
+        <text><![CDATA[Libros]]></text>
+      </p>
+    </object>
+    <object id="17_106267363" type="image" x="16830.292785538288" y="-21117.43608105493" r="0.3148128627191728" s="9.213482844644725">
+      <source w="241" h="339">2984835403<url>2984835403.PNG</url></source>
+      <sourceUrl>Captura.PNG</sourceUrl>
+    <resource><id>2984835403</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/1/d/6/9897349063f332218fbed3fae91d263cbf8a3.PNG</url></resource></object>
+    <object id="18_106267363" type="image" x="19644.212595251567" y="-19986.278931326924" r="0.31481286271917286" s="9.956373128322085">
+      <source w="226" h="347">2984836198<url>2984836198.PNG</url></source>
+      <sourceUrl>Captura1.PNG</sourceUrl>
+    <resource><id>2984836198</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/6/8/1/9603d929e1525402364095ae69de373db90ce.PNG</url></resource></object>
+    <object id="19_106267363" type="image" x="16813.3468861032" y="-18033.322113863116" r="0.3148128627191733" s="7.541958531106691">
+      <source w="261" h="337">2984839273<url>2984839273.PNG</url></source>
+      <sourceUrl>Captura2.PNG</sourceUrl>
+    <resource><id>2984839273</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/3/2/779bc7e137d360791e8e2041f865aa44b0428.PNG</url></resource></object>
+    <object id="20_106267363" type="image" x="19620.965761724892" y="-15755.4097321292" r="0.3148128627191727" s="9.927762860711972">
+      <source w="236" h="348">2984839933<url>2984839933.PNG</url></source>
+      <sourceUrl>Captura3.PNG</sourceUrl>
+    <resource><id>2984839933</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/6/1/c/bc6f5264ffb6561632a17da1efca75039f2b2.PNG</url></resource></object>
+    <object id="21_106267363" type="image" x="16794.11736106852" y="-14523.266935073532" r="0.3148128627191729" s="10.191329340445096">
+      <source w="239" h="346">2984840734<url>2984840734.PNG</url></source>
+      <sourceUrl>Captura4.PNG</sourceUrl>
+    <resource><id>2984840734</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/c/d/d/89309390e04214cc2cfa1638915a0aad31fe7.PNG</url></resource></object>
+    <object id="2_106267363" type="shape" x="5310.740385663299" y="533.1748381372539" r="0" s="7.678889022659511" class="circle poly2">
+      <style borderThickness="0"/>
+      <style borderThickness="0"/>
+      <geom type="circle">
+        <r>21.2744942020472</r>
+      </geom>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="4_106267363" type="image" x="9484.437496777113" y="-38.70416704526019" r="-7.67126513907834e-17" s="2.136592720695532">
+      <source w="1366" h="768">2994200485<mask x="142" y="0" w="1224" h="768"/>
+      <url>2994200485.jpg</url></source>
+      <sourceUrl>imagen3.jpg</sourceUrl>
+    <resource><id>2994200485</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/5/5/9/4a627069c3b8b1f3081e8f6b1a64b308145ab.jpg</url></resource></object>
+    <object id="3_106267363" type="text" x="9547.58347299772" y="-1342.0864993417274" r="0" s="19.445717554935133" class="head head-background">
+      <height>28.8</height>
+      <width>388.04545454545456</width>
+      <p align="center">
+        <text><![CDATA[Slideshare]]></text>
+      </p>
+    </object>
+    <object id="9_106267363" type="image" x="12173.540980117788" y="-25.075656482026943" r="0" s="2.0706958978067433">
+      <source w="1366" h="768">2994201904<mask x="159" y="0" w="1207" h="768"/>
+      <url>2994201904.jpg</url></source>
+      <sourceUrl>imagen4.jpg</sourceUrl>
+    <resource><id>2994201904</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/8/c/5/ef53be0881ccac18bb8fa7a4de83e7adbe341.jpg</url></resource></object>
+    <object id="10_106267363" type="image" x="11181.858889885149" y="1778.6225255721708" r="0" s="2.3382144621122123">
+      <source w="1366" h="768">2994207772<url>2994207772.jpg</url></source>
+      <sourceUrl>imagen6.jpg</sourceUrl>
+    <resource><id>2994207772</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/4/b/d/a0591d9135dce4081a773aa0de5d2e5dbd3c2.jpg</url></resource></object>
+    <object id="12_106267363" type="image" x="7829.501225800453" y="1778.6225255721708" r="0" s="2.2776033076591347">
+      <source w="1366" h="768">2994209050<url>2994209050.jpg</url></source>
+      <sourceUrl>imagen5.jpg</sourceUrl>
+    <resource><id>2994209050</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/d/9/9df77da284bfae5baf5ac15fe18ddf3b9ddfc.jpg</url></resource></object>
+    <object id="22_106267363" type="persistentgroup" x="9568.278279199627" y="908.670553615458" r="0" s="32.657178034699996">
+      <m o="0_106267363"/>
+      <m o="4_106267363"/>
+      <m o="9_106267363"/>
+      <m o="10_106267363"/>
+      <m o="12_106267363"/>
+    </object>
+    <object id="26_106267363" type="image" x="3611.499999999997" y="8640.099999999993" r="0" s="4.492643038062967">
+      <source w="693" h="659">2998459360<mask x="0" y="0" w="681" h="591"/>
+      <url>2998459360.PNG</url></source>
+      <sourceUrl>Capturaxz.PNG</sourceUrl>
+    <resource><id>2998459360</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/1/f/e/8455c518687e67ef90a41fd37d203d1979a45.PNG</url></resource></object>
+    <object id="23_106267363" type="image" x="5744.599999999996" y="11074.29999999999" r="0" s="3.9490574770846383">
+      <source w="979" h="614">2998450312<url>2998450312.PNG</url></source>
+      <sourceUrl>Captura.PNG</sourceUrl>
+    <resource><id>2998450312</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/1/4/a/576e8739590864edb89b375a1ed4221267d99.PNG</url></resource></object>
+    <object id="24_106267363" type="image" x="1497.149999999999" y="10925.349999999991" r="0" s="3.4843507836132583">
+      <source w="1277" h="628">2998455184<url>2998455184.PNG</url></source>
+      <sourceUrl>Captura1.PNG</sourceUrl>
+    <resource><id>2998455184</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/7/b/c/21817387e7bf640a2902e3dc954be5598707d.PNG</url></resource></object>
+    <object id="0_111911293" type="text" x="-12459.00332612546" y="-12052.66719455274" r="0" s="31.79693347749072" class="body">
+      <height>28.8</height>
+      <width>0</width>
+      <p>
+        <text><![CDATA[]]></text>
+      </p>
+    </object>
+    <object id="30_106267363" type="image" x="-1101.8499999999997" y="-517.5430366286047" r="0" s="4.536181309638716">
+      <source w="464" h="183">3030484459<url>3030484459.PNG</url></source>
+      <sourceUrl>linked3.PNG</sourceUrl>
+    <resource><id>3030484459</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/5/b/8/471587d25ebd4a93cd9d7d917888d4697ff8d.PNG</url></resource></object>
+    <object id="31_106267363" type="image" x="1566.3499999999997" y="-785.7430366286046" r="0" s="5.01725156100503">
+      <source w="519" h="171">3030487054<url>3030487054.PNG</url></source>
+      <sourceUrl>linked4.PNG</sourceUrl>
+    <resource><id>3030487054</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/d/5/8/4efa0907c71fdb061e1910c11bd17c2571436.PNG</url></resource></object>
+    <object id="32_106267363" type="image" x="1566.3499999999997" y="129.35696337139527" r="0" s="4.3095679815743155">
+      <source w="539" h="185">3030489172<url>3030489172.PNG</url></source>
+      <sourceUrl>linked5.PNG</sourceUrl>
+    <resource><id>3030489172</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/4/8/7/b83d52fe9d492e6c7194e0f047ebedbd24c83.PNG</url></resource></object>
+    <object id="34_106267363" type="image" x="-11508.682372383164" y="-8086.941595203354" r="0" s="8.986474476633042">
+      <source w="1366" h="768">3030545116<mask x="348" y="182" w="255" h="500"/>
+      <url>3030545116.png</url></source>
+      <sourceUrl>pantallazo%20jira2.png</sourceUrl>
+    <resource><id>3030545116</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/6/8/f/81b8d5c5f495646c3b3fc4bd7ff19ea598e72.png</url></resource></object>
+    <object id="37_106267363" type="image" x="18768.35000000001" y="-6999.293036628603" r="0" s="6.1002620166151935">
+      <source w="837" h="97">3030553717<url>3030553717.PNG</url></source>
+      <sourceUrl>blog3.PNG</sourceUrl>
+    <resource><id>3030553717</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/f/e/1bf36e1a556fe4a9e1660a0bdd9420e42c6ed.PNG</url></resource></object>
+    <object id="40_106267363" type="image" x="20647.199999999997" y="-8171.493036628601" r="0" s="13.368868434449142">
+      <source w="308" h="69">3030557353<url>3030557353.PNG</url></source>
+      <sourceUrl>blog4.PNG</sourceUrl>
+    <resource><id>3030557353</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/3/c/9/aecded8204c09e7cf7daaacbcd89906d24eac.PNG</url></resource></object>
+    <object id="41_106267363" type="image" x="16912.949999999997" y="-6189.293036628603" r="0" s="12.989650047149173">
+      <source w="509" h="59">3030561496<url>3030561496.PNG</url></source>
+      <sourceUrl>blog5.PNG</sourceUrl>
+    <resource><id>3030561496</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/7/e/f/2b5f58399a2b7a1b9d8361b446ac234bd4e74.PNG</url></resource></object>
+    <object id="42_106267363" type="image" x="18165.699999999997" y="-5080.4930366286035" r="0" s="7.637243526980361">
+      <source w="1217" h="84">3030569404<url>3030569404.PNG</url></source>
+      <sourceUrl>Capturasasasasaa.PNG</sourceUrl>
+    <resource><id>3030569404</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/f/8/8/2f9df089019c21a847302ed8049f4dc16c88b.PNG</url></resource></object>
+    <object id="43_106267363" type="image" x="27909.699999999993" y="-15391.8430366286" r="0" s="11.273707587840908">
+      <source w="345" h="380">3030571438<url>3030571438.PNG</url></source>
+      <sourceUrl>Captura.PNG</sourceUrl>
+    <resource><id>3030571438</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/7/3/ec238a5e3646cb7f1a32607635818fff68c58.PNG</url></resource></object>
+    <object id="44_106267363" type="image" x="32120.99999999999" y="-15391.843036628605" r="0" s="10.114547403643146">
+      <source w="927" h="361">3030571942<mask x="0" y="0" w="672" h="361"/>
+      <url>3030571942.PNG</url></source>
+      <sourceUrl>Captura1.PNG</sourceUrl>
+    <resource><id>3030571942</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/b/0/2/86da0f688ddb2febcbaae129ed23baf59926e.PNG</url></resource></object>
+    <object id="47_106267363" type="image" x="30087.799999999992" y="-4453.643036628604" r="0" s="8.148732869708168">
+      <source w="399" h="305">3030591271<url>3030591271.PNG</url></source>
+      <sourceUrl>Captuaaaaaaaaaaaaara.PNG</sourceUrl>
+    <resource><id>3030591271</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/8/5/1/6394bee9dea0abc2c5fea4eb9dd447ada3316.PNG</url></resource></object>
+    <object id="49_106267363" type="image" x="29850.299999999992" y="-6831.543036628603" r="0" s="5.599623892304907">
+      <source w="419" h="359">3030603796<url>3030603796.PNG</url></source>
+      <sourceUrl>Caaaaaaaaaaaptura.PNG</sourceUrl>
+    <resource><id>3030603796</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/4/0/c/afed287ab33c8e19d8fcafc50310601bba999.PNG</url></resource></object>
+    <object id="53_106267363" type="button" x="-11196.699999999999" y="-21727.043036628602" r="0" s="11.123841914760792" class="roundrect">
+      <type>roundrect</type>
+      <size>
+        <w>791.6728253956998</w>
+        <h>512.8470899222135</h>
+      </size>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="54_106267363" type="shape" x="-15510.850856274443" y="-21671.510875431086" r="0" s="6.061496152172017" class="circle poly2">
+      <style borderThickness="0"/>
+      <style borderThickness="0"/>
+      <geom type="circle">
+        <r>21.2744942020472</r>
+      </geom>
+      <meta>
+        <parentTemplate>mobility-new</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="55_106267363" type="text" x="-11185.7123091768" y="-23585.600575091245" r="0" s="19.843159834018945" class="head head-background">
+      <height>28.8</height>
+      <width>388.04545454545456</width>
+      <p align="center">
+        <text><![CDATA[Done]]></text>
+      </p>
+    </object>
+    <object id="57_106267363" type="image" x="-11129.650302314009" y="-21249.210314155654" r="0" s="5.965053891668335">
+      <source w="1366" h="768">3030610780<mask x="72" y="102" w="1294" h="621"/>
+      <url>3030610780.png</url></source>
+      <sourceUrl>pantallazo%20jira6.png</sourceUrl>
+    <resource><id>3030610780</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/b/0/8/7bc57fe8f91925c458872020ad72c2ffcf49b.png</url></resource></object>
+    <object id="58_106267363" type="image" x="-31416.749999999993" y="-1315.9930366286046" r="0" s="4.503378190004661">
+      <source w="1222" h="670">3030662284<url>3030662284.PNG</url></source>
+      <sourceUrl>GitHub.PNG</sourceUrl>
+    <resource><id>3030662284</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/b/4/5/274f4a340784058c04f77cfde7f40e43a07b5.PNG</url></resource></object>
+    <object id="59_106267363" type="image" x="-27481.84999999999" y="318.20696337139515" r="0" s="5.074642327591454">
+      <source w="1366" h="768">3030664678<mask x="200" y="102" w="1036" h="520"/>
+      <url>3030664678.png</url></source>
+      <sourceUrl>pantallazo%20git4.png</sourceUrl>
+    <resource><id>3030664678</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/6/9/a/1c9c3cf64f8ce9d862fa029965718248a60db.png</url></resource></object>
+    <object id="27_106267363" type="image" x="-20429.79953056113" y="-6249.528058750765" r="89.62613264318492" s="1.4388556167149826">
+      <source w="1200" h="675">3031598239<mask x="203" y="0" w="793" h="675"/>
+      <url>3031598239.png</url></source>
+      <sourceUrl>http%3A%2F%2F0103.static.prezi.com.s3.amazonaws.com%2Fmedia%2F3%2F7%2Fc%2Fbc24716d671c64c37b4bfd8c72c7d6b4ca2e1.png</sourceUrl>
+    <resource><id>3031598239</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/3/7/c/bc24716d671c64c37b4bfd8c72c7d6b4ca2e1.png</url></resource></object>
+  </zui-table>
+  <background>
+    <layer depth="0" fadescale="0.04658377845845245">
+      <object id="background1238032098" type="image" x="-5491.297538660997" y="-8433.992825695925" r="0" s="44.123560236325034">
+        <source w="3295" h="2238">1238032098<url>1238032098.swf</url></source>
+        <sourceUrl>devices.swf</sourceUrl>
+        <extra>
+          <fixed_avm1_pos>1</fixed_avm1_pos>
+        </extra>
+      <resource><id>1238032098</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/7/3/6/658586479441e651f36ee1d4ee5c6e22131ea.swf</url></resource></object>
+    </layer>
+  </background>
+  <path>
+    <s>
+      <eagle o="1_24309637"/>
+    </s>
+    <s>
+      <eagle o="4_24309637"/>
+    </s>
+    <s>
+      <eagle o="9_24309637"/>
+    </s>
+    <s>
+      <eagle o="33_106267363"/>
+    </s>
+    <s>
+      <eagle o="32_24309637"/>
+    </s>
+    <s>
+      <eagle o="35_24309637"/>
+    </s>
+    <s>
+      <eagle o="17_24309637"/>
+    </s>
+    <s>
+      <eagle o="19_24309637"/>
+    </s>
+    <s>
+      <eagle o="1"/>
+    </s>
+    <s>
+      <eagle o="5"/>
+    </s>
+    <s>
+      <eagle o="1_106267363"/>
+    </s>
+    <s>
+      <eagle o="13_106267363"/>
+    </s>
+    <s>
+      <eagle o="13"/>
+    </s>
+    <s>
+      <eagle o="18"/>
+    </s>
+    <s>
+      <eagle o="22"/>
+    </s>
+    <s>
+      <eagle o="47_106267363"/>
+    </s>
+    <s>
+      <eagle o="49_106267363"/>
+    </s>
+    <s>
+      <eagle o="45_106267363"/>
+    </s>
+    <s>
+      <eagle o="46_106267363"/>
+    </s>
+    <s>
+      <eagle o="53_106267363"/>
+    </s>
+    <s>
+      <eagle o="28"/>
+    </s>
+    <s>
+      <eagle o="1_24309637"/>
+    </s>
+  </path>
+  <style type="text/css"><![CDATA[
+@font-face
+{
+	src: url('Titillium-Regular.keg');
+	fontFamily: body;
+	font-class: body;
+	font-style: normal;
+	font-weight: normal;
+	font-family: Titillium;
+}
+
+@font-face
+{
+	src: url('Titillium-Bold.keg');
+	fontFamily: head;
+	font-class: head;
+	font-style: normal;
+	font-weight: bold;
+	font-family: Titillium;
+}
+
+@font-face
+{
+	src: url('Titillium-Bold.keg');
+	fontFamily: strong;
+	font-class: strong;
+	font-style: normal;
+	font-weight: bold;
+	font-family: Titillium;
+}
+
+@font-face
+{
+	src: url('Titillium-RegularItalic.keg');
+	font-style: italic;
+	font-weight: normal;
+	font-family: Titillium;
+}
+
+@font-face
+{
+	src: url('Titillium-BoldItalic.keg');
+	font-style: italic;
+	font-weight: bold;
+	font-family: Titillium;
+}
+
+.line1
+{
+	borderColor: #000;
+	color: #000;
+	gradEndColor: #000;
+	gradStartColor: #000;
+}
+
+.line2
+{
+	borderColor: #bff5ff;
+	color: #bff5ff;
+	gradEndColor: #bff5ff;
+	gradStartColor: #bff5ff;
+}
+
+.line3
+{
+	borderColor: #27b6fb;
+	color: #27b6fb;
+	gradEndColor: #27b6fb;
+	gradStartColor: #27b6fb;
+}
+
+.line4
+{
+	borderColor: #2150ba;
+	color: #2150ba;
+	gradEndColor: #2150ba;
+	gradStartColor: #2150ba;
+}
+
+.line5
+{
+	borderColor: #bf4d98;
+	color: #bf4d98;
+	gradEndColor: #bf4d98;
+	gradStartColor: #bf4d98;
+}
+
+.poly1
+{
+	color: #5d9bdc;
+	gradEndColor: #000;
+	gradStartColor: #000;
+}
+
+.poly2
+{
+	color: #5d9bdc;
+	gradEndColor: #bff5ff;
+	gradStartColor: #bff5ff;
+}
+
+.poly3
+{
+	color: #5d9bdc;
+	gradEndColor: #27b6fb;
+	gradStartColor: #27b6fb;
+}
+
+.poly4
+{
+	color: #5d9bdc;
+	gradEndColor: #2150ba;
+	gradStartColor: #2150ba;
+}
+
+.poly5
+{
+	color: #5d9bdc;
+	gradEndColor: #bf4d98;
+	gradStartColor: #bf4d98;
+}
+
+Background
+{
+	gradEnd: #3964d7;
+	gradStart: #81d2e1;
+}
+
+Grid
+{
+	color: #4574a4;
+}
+
+ZArrow
+{
+	borderAlpha: 0;
+	borderColor: #fff;
+	borderThickness: 0;
+	gradEndAlpha: 1;
+	gradEndColor: #fff;
+	gradStartAlpha: 1;
+	gradStartColor: #fff;
+	thickness: 10;
+}
+
+ZCircle
+{
+	borderAlpha: 0;
+	gradEndAlpha: 1;
+	gradStartAlpha: 1;
+	lockTintAlpha: 0;
+	radius: 0;
+	thickness: 100;
+}
+
+ZCurveLine
+{
+	color: #fff;
+}
+
+ZFrame.bracket
+{
+	borderAlpha: 0;
+	borderColor: #333;
+	borderThickness: 0;
+	gradEndAlpha: 1;
+	gradEndColor: #333;
+	gradStartAlpha: 1;
+	gradStartColor: #333;
+	padding: 1.03;
+	thickness: 8;
+}
+
+ZFrame.circle
+{
+	borderAlpha: 0;
+	borderColor: #333;
+	borderThickness: 0;
+	gradEndAlpha: 1;
+	gradEndColor: #333;
+	gradStartAlpha: 1;
+	gradStartColor: #333;
+	padding: 1.03;
+	thickness: 8;
+}
+
+ZFrame.roundrect
+{
+	borderAlpha: 1;
+	borderColor: #333;
+	borderThickness: 60;
+	gradEndAlpha: .8;
+	gradEndColor: #f6f6f6;
+	gradStartAlpha: .7;
+	gradStartColor: #f6f6f6;
+	padding: 1.03;
+	radius: 13;
+	thickness: 8;
+}
+
+ZLabel
+{
+	lockTintAlpha: 0.15;
+	padding: 1.2;
+}
+
+ZLabel.body
+{
+	color: #000;
+	fontFamily: body;
+}
+
+ZLabel.body-background
+{
+	background-alpha: 0.6;
+	background-color: #d82a14;
+	background-padding: 4;
+}
+
+ZLabel.head
+{
+	color: #f6f6f6;
+	fontFamily: head;
+}
+
+ZLabel.head-background
+{
+	background-alpha: 0.6;
+	background-color: #3a67d7;
+	background-padding: 4;
+}
+
+ZLabel.strong
+{
+	color: #000;
+	fontFamily: strong;
+}
+
+ZLabel.strong-background
+{
+	background-alpha: 0.6;
+	background-color: #7ac8e0;
+	background-padding: 4;
+}
+
+ZLine
+{
+	color: #fff;
+}
+
+ZMarker
+{
+	alpha: 0.8;
+	color: #50e2c1;
+}
+
+ZPath
+{
+	alpha: 1;
+	color: #40abe6;
+	textColor: #fff;
+	thickness: 3;
+}
+
+ZPath Ball.base
+{
+	alpha: 1;
+	fillColor: #40abe6;
+	radius: 12;
+}
+
+ZPath Ball.mid
+{
+	alpha: .5;
+	fillColor: #40abe6;
+	radius: 8;
+}
+
+ZPoly
+{
+	borderAlpha: 0;
+	gradEndAlpha: 1;
+	gradStartAlpha: 1;
+	lockTintAlpha: 0;
+	radius: 0;
+	thickness: 100;
+}
+
+arrow
+{
+	borderColor: #fff;
+	borderThickness: -1;
+	gradEndColor: #fff808;
+	gradStartColor: #fff808;
+}
+
+background
+{
+	gradEnd: #808080;
+	gradStart: #808080;
+}
+
+circle
+{
+	borderAlpha: 1;
+	lockTintAlpha: 0.6;
+	radius: 0;
+	thickness: 100;
+}
+
+frame.bracket
+{
+	borderColor: #fff;
+	borderThickness: 0;
+	gradEndColor: #c5c3c3;
+	gradStartColor: #fff;
+	thickness: 7;
+}
+
+frame.circle
+{
+	borderColor: #999;
+	borderThickness: 0;
+	gradEndColor: #333;
+	gradStartColor: #333;
+}
+
+frame.rectangle
+{
+	borderColor: #fff;
+	borderThickness: 0;
+	gradEndColor: #000;
+	gradStartColor: #000;
+	radius: 0;
+}
+
+free-line
+{
+	color: #fff808;
+}
+
+free-marker
+{
+	alpha: 0.3;
+	color: #ffff0d;
+}
+
+grid
+{
+	color: #ddd;
+}
+
+line
+{
+	color: #fff808;
+}
+
+line-arrow.style1
+{
+	color: #fff;
+	gradEndColor: #fff;
+	gradStartColor: #fff;
+}
+
+line-arrow.style2
+{
+	color: #c5c3c3;
+	gradEndColor: #c5c3c3;
+	gradStartColor: #c5c3c3;
+}
+
+line-arrow.style3
+{
+	color: #fff808;
+	gradEndColor: #fff808;
+	gradStartColor: #fff808;
+}
+
+line-arrow.style4
+{
+	color: #333;
+	gradEndColor: #333;
+	gradStartColor: #333;
+}
+
+line-arrow.style5
+{
+	color: #000;
+	gradEndColor: #000;
+	gradStartColor: #000;
+}
+
+shape
+{
+	borderAlpha: 1;
+	gradEndAlpha: 0.8;
+	gradStartAlpha: 0.7;
+	lockTintAlpha: 0.6;
+	radius: 0;
+	thickness: 100;
+}
+
+shape.style1
+{
+	borderColor: #fff;
+	borderThickness: 0;
+	gradEndColor: #fff;
+	gradStartColor: #fff;
+}
+
+shape.style2
+{
+	borderColor: #c5c3c3;
+	borderThickness: 0;
+	gradEndColor: #c5c3c3;
+	gradStartColor: #c5c3c3;
+}
+
+shape.style3
+{
+	borderColor: #fff808;
+	borderThickness: 0;
+	gradEndColor: #fff808;
+	gradStartColor: #fff808;
+}
+
+shape.style4
+{
+	borderColor: #333;
+	borderThickness: 0;
+	gradEndColor: #333;
+	gradStartColor: #333;
+}
+
+shape.style5
+{
+	borderColor: #000;
+	borderThickness: 0;
+	gradEndColor: #000;
+	gradStartColor: #000;
+}
+
+text
+{
+	padding: 1.2;
+}
+
+text.body
+{
+	color: #fff;
+	fontFamily: body;
+}
+
+text.subtitle
+{
+	color: #fff;
+	fontFamily: strong;
+}
+
+text.title
+{
+	color: #fff808;
+	fontFamily: head;
+}
+
+]]></style>
+  <hash>4f66d0e5</hash>
+<sync><oid>esffq4io7lik</oid><title>sprint-1</title><hash>4f66d0e5</hash></sync><config>eFnhPopV0XGno7vd6jORDYcyygn5Jde+wYvvrC9mg8Mjj6IwtK2WvrV9jVzSP0uHWskRLe4XLbyb++KxjRqURRekMHcGheq5zy/gOH/EUor5Y9nNyh25jzk2/9l8ndu7088psZi55tct5Xdd6Pb5PNuG34apXlLpkgHQvugBoyqkw6RG9RMXewMftjRBw8dzvc95UDWgLLwSPzYcQlmpLoN3NVmVQnsHy1QDVxcN6R6hjitUw7psO8z2jLOukvciBVJ9o+c3tYwnT0SOvY3E0pFHexmEf3Wzw30+PDgu2JxNFHpcI6DgD+TDAwcRNhn+ZtCaIHu5L8DNO9QK9O5Lcg==</config></zuiprezi>
