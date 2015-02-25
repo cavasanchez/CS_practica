@@ -1,0 +1,426 @@
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+2015.02.25 10:27:36 INFO  app[o.s.p.m.JavaProcessLauncher] Launch process[search]: C:\Program Files\Java\jre1.8.0_31\bin\java -Djava.awt.headless=true -Xmx1G -Xms256m -Xss256k -Djava.net.preferIPv4Stack=true -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\Users\oscar\Documents\CS_practica\sonarQube\sonarqube-5.0.1\temp -cp ./lib/common/*;./lib/search/* org.sonar.search.SearchServer C:\Users\oscar\AppData\Local\Temp\sq-process3745417681334786735properties
+2015.02.25 10:27:36 INFO  sea[o.s.p.ProcessEntryPoint]  Starting search
+2015.02.25 10:27:36 INFO  sea[o.s.s.SearchServer]  Starting Elasticsearch[sonarqube] on port 9001
+2015.02.25 10:27:37 INFO  sea[o.elasticsearch.node]  [sonar-1424856455991] version[1.1.2], pid[1372], build[e511f7b/2014-05-22T12:27:39Z]
+2015.02.25 10:27:37 INFO  sea[o.elasticsearch.node]  [sonar-1424856455991] initializing ...
+2015.02.25 10:27:37 INFO  sea[o.e.plugins]  [sonar-1424856455991] loaded [], sites []
+2015.02.25 10:27:38 INFO  sea[o.elasticsearch.node]  [sonar-1424856455991] initialized
+2015.02.25 10:27:38 INFO  sea[o.elasticsearch.node]  [sonar-1424856455991] starting ...
+2015.02.25 10:27:38 INFO  sea[o.e.transport]  [sonar-1424856455991] bound_address {inet[/0.0.0.0:9001]}, publish_address {inet[/192.168.43.112:9001]}
+2015.02.25 10:27:41 INFO  sea[o.e.cluster.service]  [sonar-1424856455991] new_master [sonar-1424856455991][eVkkox-6RbGPXuxmx214Sg][oscar][inet[/192.168.43.112:9001]]{rack_id=sonar-1424856455991}, reason: zen-disco-join (elected_as_master)
+2015.02.25 10:27:42 INFO  sea[o.e.discovery]  [sonar-1424856455991] sonarqube/eVkkox-6RbGPXuxmx214Sg
+2015.02.25 10:27:42 INFO  sea[o.e.gateway]  [sonar-1424856455991] recovered [0] indices into cluster_state
+2015.02.25 10:27:42 INFO  sea[o.elasticsearch.node]  [sonar-1424856455991] started
+2015.02.25 10:27:42 INFO  app[o.s.p.m.Monitor] Process[search] is up
+2015.02.25 10:27:42 INFO  app[o.s.p.m.JavaProcessLauncher] Launch process[web]: C:\Program Files\Java\jre1.8.0_31\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djruby.management.enabled=false -Djruby.compile.invokedynamic=false -Xmx768m -XX:MaxPermSize=160m -XX:+HeapDumpOnOutOfMemoryError -Djava.net.preferIPv4Stack=true -Djava.io.tmpdir=C:\Users\oscar\Documents\CS_practica\sonarQube\sonarqube-5.0.1\temp -cp ./lib/common/*;./lib/server/* org.sonar.server.app.WebServer C:\Users\oscar\AppData\Local\Temp\sq-process1670010822756534118properties
+2015.02.25 10:27:43 INFO  web[o.s.p.ProcessEntryPoint]  Starting web
+2015.02.25 10:27:43 INFO  web[o.s.s.app.Connectors]  HTTP connector is enabled on port 9000
+2015.02.25 10:27:43 INFO  web[o.s.s.app.Webapp]  Webapp directory: C:\Users\oscar\Documents\CS_practica\sonarQube\sonarqube-5.0.1\web
+2015.02.25 10:27:44 INFO  web[o.e.plugins]  [sonar-1424856455991] loaded [], sites []
+2015.02.25 10:27:44 INFO  web[o.s.s.p.ServerImpl]  SonarQube Server / 5.0.1 / 2c86ad5a003cfe6db1287a25c35acfa0561300c9
+2015.02.25 10:27:45 INFO  web[o.s.s.d.EmbeddedDatabase]  Starting embedded database on port 9092 with url jdbc:h2:tcp://localhost:9092/sonar
+2015.02.25 10:27:45 INFO  web[o.s.s.d.EmbeddedDatabase]  Embedded database started. Data stored in: C:\Users\oscar\Documents\CS_practica\sonarQube\sonarqube-5.0.1\data
+2015.02.25 10:27:45 INFO  web[o.s.c.p.Database]  Create JDBC datasource for jdbc:h2:tcp://localhost:9092/sonar
+2015.02.25 10:27:46 WARN  web[o.s.s.d.DatabaseChecker]  H2 database should be used for evaluation purpose only
+2015.02.25 10:27:47 INFO  web[o.s.s.p.DefaultServerFileSystem]  SonarQube home: C:\Users\oscar\Documents\CS_practica\sonarQube\sonarqube-5.0.1
+2015.02.25 10:27:47 INFO  sea[o.e.cluster.metadata]  [sonar-1424856455991] [rules] creating index, cause [api], shards [1]/[0], mappings []
+2015.02.25 10:27:47 INFO  sea[o.e.cluster.metadata]  [sonar-1424856455991] [rules] create_mapping [rule]
+2015.02.25 10:27:47 INFO  sea[o.e.cluster.metadata]  [sonar-1424856455991] [rules] create_mapping [activeRule]
+2015.02.25 10:27:47 INFO  sea[o.e.cluster.metadata]  [sonar-1424856455991] [logs] creating index, cause [api], shards [1]/[0], mappings []
+2015.02.25 10:27:48 INFO  sea[o.e.cluster.metadata]  [sonar-1424856455991] [logs] create_mapping [sonarLog]
+2015.02.25 10:27:48 INFO  web[o.s.a.u.TimeProfiler]  Install plugins...
+2015.02.25 10:27:48 INFO  web[o.s.s.p.ServerPluginJarsInstaller]  Deploy plugin Core / 5.0.1 / 2c86ad5a003cfe6db1287a25c35acfa0561300c9
+2015.02.25 10:27:48 INFO  web[o.s.s.p.ServerPluginJarsInstaller]  Deploy plugin Email notifications / 5.0.1 / 2c86ad5a003cfe6db1287a25c35acfa0561300c9
+2015.02.25 10:27:48 INFO  web[o.s.s.p.ServerPluginJarsInstaller]  Deploy plugin Findbugs / 2.4 / a334be36ba4374bb779255272c53fb08675ac2c2
+2015.02.25 10:27:48 INFO  web[o.s.s.p.ServerPluginJarsInstaller]  Deploy plugin Java / 2.8 / 20a3d682b1334eb1857e7bc8a40e11f04fed9528
+2015.02.25 10:27:48 INFO  web[o.s.s.p.ServerPluginJarsInstaller]  Deploy plugin Git / 5.0.1 / 2c86ad5a003cfe6db1287a25c35acfa0561300c9
+2015.02.25 10:27:48 INFO  web[o.s.s.p.ServerPluginJarsInstaller]  Deploy plugin Duplications / 5.0.1 / 2c86ad5a003cfe6db1287a25c35acfa0561300c9
+2015.02.25 10:27:48 INFO  web[o.s.s.p.ServerPluginJarsInstaller]  Deploy plugin English Pack / 5.0.1 / 2c86ad5a003cfe6db1287a25c35acfa0561300c9
+2015.02.25 10:27:48 INFO  web[o.s.s.p.ServerPluginJarsInstaller]  Deploy plugin SVN / 5.0.1 / 2c86ad5a003cfe6db1287a25c35acfa0561300c9
+2015.02.25 10:27:48 INFO  web[o.s.a.u.TimeProfiler]  Install plugins done: 228 ms
+2015.02.25 10:27:48 INFO  web[o.s.s.d.m.DatabaseMigrator]  Create database
+2015.02.25 10:27:48 INFO  web[o.s.s.p.RailsAppsDeployer]  Deploy Ruby on Rails applications
+2015.02.25 10:27:48 INFO  web[o.s.j.s.AbstractDatabaseConnector]  Initializing Hibernate
+2015.02.25 10:27:50 INFO  web[o.s.s.p.UpdateCenterClient]  Update center: http://update.sonarsource.org/update-center.properties (no proxy)
+2015.02.25 10:27:50 INFO  web[o.s.s.e.IndexCreator]  Create index sourcelines
+2015.02.25 10:27:50 INFO  sea[o.e.cluster.metadata]  [sonar-1424856455991] [sourcelines] creating index, cause [api], shards [1]/[0], mappings []
+2015.02.25 10:27:50 INFO  web[o.s.s.e.IndexCreator]  Create type sourcelines/sourceline
+2015.02.25 10:27:50 INFO  sea[o.e.cluster.metadata]  [sonar-1424856455991] [sourcelines] create_mapping [sourceline]
+2015.02.25 10:27:50 INFO  web[o.s.s.e.IndexCreator]  Create index issues
+2015.02.25 10:27:50 INFO  sea[o.e.cluster.metadata]  [sonar-1424856455991] [issues] creating index, cause [api], shards [1]/[0], mappings []
+2015.02.25 10:27:51 INFO  web[o.s.s.e.IndexCreator]  Create type issues/authorization
+2015.02.25 10:27:51 INFO  sea[o.e.cluster.metadata]  [sonar-1424856455991] [issues] create_mapping [authorization]
+2015.02.25 10:27:51 INFO  web[o.s.s.e.IndexCreator]  Create type issues/issue
+2015.02.25 10:27:51 INFO  sea[o.e.cluster.metadata]  [sonar-1424856455991] [issues] create_mapping [issue]
+2015.02.25 10:27:51 INFO  web[o.s.s.n.NotificationService]  Notification service started (delay 60 sec.)
+2015.02.25 10:27:51 INFO  web[o.s.s.s.IndexSynchronizer]  Index rules
+2015.02.25 10:27:51 INFO  web[o.s.s.s.IndexSynchronizer]  Index activeRules
+2015.02.25 10:27:51 INFO  web[o.s.s.s.IndexSynchronizer]  Index sonarLogs
+2015.02.25 10:27:51 INFO  web[o.s.s.s.IndexSynchronizer]  Index issues
+2015.02.25 10:27:51 INFO  web[o.s.s.s.IndexSynchronizer]  Index source files
+2015.02.25 10:27:51 INFO  web[o.s.a.u.TimeProfiler]  Load metrics...
+2015.02.25 10:27:51 INFO  web[o.s.s.s.RegisterMetrics]  Cleaning quality gate conditions
+2015.02.25 10:27:51 INFO  web[o.s.a.u.TimeProfiler]  Load metrics done: 226 ms
+2015.02.25 10:27:51 INFO  web[o.s.s.s.RegisterDebtModel]  Register technical debt model...
+2015.02.25 10:27:51 INFO  web[o.s.s.s.RegisterDebtModel]  Register technical debt model done: 110 ms
+2015.02.25 10:27:51 INFO  web[o.s.a.u.TimeProfiler]  Register rules...
+2015.02.25 10:27:58 INFO  web[o.s.a.u.TimeProfiler]  Register rules done: 6262 ms
+2015.02.25 10:27:58 INFO  web[o.s.s.q.RegisterQualityProfiles]  Register Quality Profiles...
+2015.02.25 10:27:58 INFO  web[o.s.s.q.RegisterQualityProfiles]  Register profile {lang=java, name=FindBugs}
+2015.02.25 10:28:00 INFO  sea[o.e.cluster.metadata]  [sonar-1424856455991] [logs] update_mapping [sonarLog] (dynamic)
+2015.02.25 10:28:01 INFO  web[o.s.s.q.RegisterQualityProfiles]  Register profile {lang=java, name=Sonar way}
+2015.02.25 10:28:01 INFO  sea[o.e.cluster.metadata]  [sonar-1424856455991] [logs] update_mapping [sonarLog] (dynamic)
+2015.02.25 10:28:01 INFO  web[o.s.s.q.RegisterQualityProfiles]  Set default java profile: Sonar way
+2015.02.25 10:28:01 INFO  web[o.s.s.q.RegisterQualityProfiles]  Register Quality Profiles done: 3923 ms
+2015.02.25 10:28:02 INFO  web[o.s.s.s.RegisterNewMeasureFilters]  Register measure filters...
+2015.02.25 10:28:02 INFO  web[o.s.s.s.RegisterNewMeasureFilters]  Register measure filter: Projects
+2015.02.25 10:28:02 INFO  web[o.s.s.s.RegisterNewMeasureFilters]  Register measure filter: My favourites
+2015.02.25 10:28:02 INFO  web[o.s.s.s.RegisterNewMeasureFilters]  Register measure filters done: 7 ms
+2015.02.25 10:28:02 INFO  web[o.s.s.s.RegisterDashboards]  Register dashboards...
+2015.02.25 10:28:02 INFO  web[o.s.s.s.RegisterDashboards]  Register dashboard: Dashboard
+2015.02.25 10:28:02 INFO  web[o.s.s.s.RegisterDashboards]  Register dashboard: Home
+2015.02.25 10:28:02 INFO  web[o.s.s.s.RegisterDashboards]  Register dashboard: Issues
+2015.02.25 10:28:02 INFO  web[o.s.s.s.RegisterDashboards]  Register dashboard: TimeMachine
+2015.02.25 10:28:02 INFO  web[o.s.s.s.RegisterDashboards]  Register dashboards done: 31 ms
+2015.02.25 10:28:02 INFO  web[o.s.s.s.RegisterPermissionTemplates]  Register permission templates...
+2015.02.25 10:28:02 INFO  web[o.s.s.s.RegisterPermissionTemplates]  Set default permission template: default_template
+2015.02.25 10:28:02 INFO  web[o.s.s.s.RegisterPermissionTemplates]  Register permission templates done: 12 ms
+2015.02.25 10:28:02 INFO  web[o.s.s.s.RenameDeprecatedPropertyKeys]  Rename deprecated property keys
+2015.02.25 10:28:02 INFO  web[o.s.s.s.CopyRequirementsFromCharacteristicsToRules]  Copying requirement from characteristics to rules
+2015.02.25 10:28:02 INFO  web[o.s.s.s.CopyRequirementsFromCharacteristicsToRules]  No requirement need to be copied
+2015.02.25 10:28:02 INFO  web[o.s.s.s.CopyRequirementsFromCharacteristicsToRules]  Deleting requirements from characteristics
+2015.02.25 10:28:02 INFO  web[o.s.s.c.AnalysisReportTaskLauncher]  AnalysisReportTaskLauncher started
+2015.02.25 10:28:02 INFO  web[jruby.rack]  jruby 1.7.9 (ruby-1.8.7p370) 2013-12-06 87b108a on Java HotSpot(TM) 64-Bit Server VM 1.8.0_31-b13 [Windows 8.1-amd64]
+2015.02.25 10:28:02 INFO  web[jruby.rack]  using a shared (threadsafe!) runtime
+2015.02.25 10:28:14 INFO  web[jruby.rack]  keeping custom (config.logger) Rails logger instance
+2015.02.25 10:28:14 INFO  web[o.s.s.app.Logging]  Web server is started
+2015.02.25 10:28:14 INFO  app[o.s.p.m.Monitor] Process[web] is up
+2015.02.25 10:33:04 WARN  sea[o.e.transport.netty]  [sonar-1424856455991] exception caught on transport layer [[id: 0x39b98980, /127.0.0.1:49838 => /127.0.0.1:9001]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.8.0_31]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[na:1.8.0_31]
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42) [elasticsearch-1.1.2.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_31]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_31]
+2015.02.25 10:33:04 WARN  sea[o.e.transport.netty]  [sonar-1424856455991] exception caught on transport layer [[id: 0x31311e06, /127.0.0.1:49842 => /127.0.0.1:9001]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.8.0_31]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[na:1.8.0_31]
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42) [elasticsearch-1.1.2.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_31]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_31]
+2015.02.25 10:33:04 WARN  sea[o.e.transport.netty]  [sonar-1424856455991] exception caught on transport layer [[id: 0xacedba4c, /127.0.0.1:49830 => /127.0.0.1:9001]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.8.0_31]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[na:1.8.0_31]
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42) [elasticsearch-1.1.2.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_31]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_31]
+2015.02.25 10:33:04 WARN  sea[o.e.transport.netty]  [sonar-1424856455991] exception caught on transport layer [[id: 0x13b78ba6, /127.0.0.1:49836 => /127.0.0.1:9001]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.8.0_31]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[na:1.8.0_31]
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42) [elasticsearch-1.1.2.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_31]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_31]
+2015.02.25 10:33:04 WARN  sea[o.e.transport.netty]  [sonar-1424856455991] exception caught on transport layer [[id: 0xca4bbfcd, /127.0.0.1:49835 => /127.0.0.1:9001]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.8.0_31]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[na:1.8.0_31]
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42) [elasticsearch-1.1.2.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_31]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_31]
+2015.02.25 10:33:04 WARN  sea[o.e.transport.netty]  [sonar-1424856455991] exception caught on transport layer [[id: 0x560d8b0f, /127.0.0.1:49837 => /127.0.0.1:9001]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.8.0_31]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[na:1.8.0_31]
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42) [elasticsearch-1.1.2.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_31]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_31]
+2015.02.25 10:33:04 WARN  sea[o.e.transport.netty]  [sonar-1424856455991] exception caught on transport layer [[id: 0x4ed049a7, /127.0.0.1:49831 => /127.0.0.1:9001]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.8.0_31]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[na:1.8.0_31]
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42) [elasticsearch-1.1.2.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_31]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_31]
+2015.02.25 10:33:04 WARN  sea[o.e.transport.netty]  [sonar-1424856455991] exception caught on transport layer [[id: 0x48d36ecc, /127.0.0.1:49834 => /127.0.0.1:9001]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.8.0_31]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[na:1.8.0_31]
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42) [elasticsearch-1.1.2.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_31]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_31]
+2015.02.25 10:33:04 WARN  sea[o.e.transport.netty]  [sonar-1424856455991] exception caught on transport layer [[id: 0xecdbddd4, /127.0.0.1:49839 => /127.0.0.1:9001]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.8.0_31]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[na:1.8.0_31]
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42) [elasticsearch-1.1.2.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_31]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_31]
+2015.02.25 10:33:04 WARN  sea[o.e.transport.netty]  [sonar-1424856455991] exception caught on transport layer [[id: 0x3cfb2062, /127.0.0.1:49832 => /127.0.0.1:9001]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.8.0_31]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[na:1.8.0_31]
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42) [elasticsearch-1.1.2.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_31]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_31]
+2015.02.25 10:33:04 WARN  sea[o.e.transport.netty]  [sonar-1424856455991] exception caught on transport layer [[id: 0x8b8ae8f6, /127.0.0.1:49840 => /127.0.0.1:9001]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.8.0_31]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[na:1.8.0_31]
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42) [elasticsearch-1.1.2.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_31]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_31]
+2015.02.25 10:33:04 WARN  sea[o.e.transport.netty]  [sonar-1424856455991] exception caught on transport layer [[id: 0x978b8e3c, /127.0.0.1:49833 => /127.0.0.1:9001]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.8.0_31]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[na:1.8.0_31]
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42) [elasticsearch-1.1.2.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_31]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_31]
+2015.02.25 10:33:04 WARN  sea[o.e.transport.netty]  [sonar-1424856455991] exception caught on transport layer [[id: 0x84449632, /127.0.0.1:49829 => /127.0.0.1:9001]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.8.0_31]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[na:1.8.0_31]
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42) [elasticsearch-1.1.2.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_31]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_31]
+2015.02.25 10:33:04 WARN  sea[o.e.transport.netty]  [sonar-1424856455991] exception caught on transport layer [[id: 0x7626ce20, /127.0.0.1:49841 => /127.0.0.1:9001]], closing connection
+java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[na:1.8.0_31]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[na:1.8.0_31]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[na:1.8.0_31]
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:64) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108) [elasticsearch-1.1.2.jar:na]
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42) [elasticsearch-1.1.2.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_31]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_31]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_31]
+2015.02.25 10:33:04 INFO  app[o.s.p.m.TerminatorThread] Process[search] is stopping
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+
+WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+          The file is located on the path at the following location but
+          could not be loaded:
+            C:\Users\oscar\Documents\CS_practica\sonarQube\sonarqube-5.0.1\bin\windows-x86-32\.\lib\wrapper.dll
+          Please verify that the file is readable by the current user
+          and that the file has not been corrupted in any way.
+          One common cause of this problem is running a 32-bit version
+          of the Wrapper with a 64-bit version of Java, or vica versa.
+          This is a 64-bit JVM.
+          Reported cause:
+            C:\Users\oscar\Documents\CS_practica\sonarQube\sonarqube-5.0.1\bin\windows-x86-32\lib\wrapper.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+          System signals will not be handled correctly.
+
+2015.02.25 10:33:55 INFO  app[o.s.p.m.JavaProcessLauncher] Launch process[search]: C:\Program Files\Java\jre1.8.0_31\bin\java -Djava.awt.headless=true -Xmx1G -Xms256m -Xss256k -Djava.net.preferIPv4Stack=true -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -XX:+HeapDumpOnOutOfMemoryError -Djava.io.tmpdir=C:\Users\oscar\Documents\CS_practica\sonarQube\sonarqube-5.0.1\temp -cp ./lib/common/*;./lib/search/* org.sonar.search.SearchServer C:\Users\oscar\AppData\Local\Temp\sq-process4151611629696338371properties
+2015.02.25 10:33:56 INFO  sea[o.s.p.ProcessEntryPoint]  Starting search
+2015.02.25 10:33:56 INFO  sea[o.s.s.SearchServer]  Starting Elasticsearch[sonarqube] on port 9001
+2015.02.25 10:33:56 INFO  sea[o.elasticsearch.node]  [sonar-1424856835299] version[1.1.2], pid[6916], build[e511f7b/2014-05-22T12:27:39Z]
+2015.02.25 10:33:56 INFO  sea[o.elasticsearch.node]  [sonar-1424856835299] initializing ...
+2015.02.25 10:33:56 INFO  sea[o.e.plugins]  [sonar-1424856835299] loaded [], sites []
+2015.02.25 10:33:57 INFO  sea[o.elasticsearch.node]  [sonar-1424856835299] initialized
+2015.02.25 10:33:57 INFO  sea[o.elasticsearch.node]  [sonar-1424856835299] starting ...
+2015.02.25 10:33:57 INFO  sea[o.e.transport]  [sonar-1424856835299] bound_address {inet[/0.0.0.0:9001]}, publish_address {inet[/192.168.43.112:9001]}
+2015.02.25 10:34:00 INFO  sea[o.e.cluster.service]  [sonar-1424856835299] new_master [sonar-1424856835299][HdvYU8TXTkySyY1P8AReZA][oscar][inet[/192.168.43.112:9001]]{rack_id=sonar-1424856835299}, reason: zen-disco-join (elected_as_master)
+2015.02.25 10:34:00 INFO  sea[o.e.discovery]  [sonar-1424856835299] sonarqube/HdvYU8TXTkySyY1P8AReZA
+2015.02.25 10:34:01 INFO  sea[o.e.gateway]  [sonar-1424856835299] recovered [4] indices into cluster_state
+2015.02.25 10:34:01 INFO  sea[o.elasticsearch.node]  [sonar-1424856835299] started
+2015.02.25 10:34:04 INFO  app[o.s.p.m.Monitor] Process[search] is up
+2015.02.25 10:34:04 INFO  app[o.s.p.m.JavaProcessLauncher] Launch process[web]: C:\Program Files\Java\jre1.8.0_31\bin\java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djruby.management.enabled=false -Djruby.compile.invokedynamic=false -Xmx768m -XX:MaxPermSize=160m -XX:+HeapDumpOnOutOfMemoryError -Djava.net.preferIPv4Stack=true -Djava.io.tmpdir=C:\Users\oscar\Documents\CS_practica\sonarQube\sonarqube-5.0.1\temp -cp ./lib/common/*;./lib/server/* org.sonar.server.app.WebServer C:\Users\oscar\AppData\Local\Temp\sq-process2342498961929382706properties
+2015.02.25 10:34:05 INFO  web[o.s.p.ProcessEntryPoint]  Starting web
+2015.02.25 10:34:05 INFO  web[o.s.s.app.Connectors]  HTTP connector is enabled on port 9000
+2015.02.25 10:34:05 INFO  web[o.s.s.app.Webapp]  Webapp directory: C:\Users\oscar\Documents\CS_practica\sonarQube\sonarqube-5.0.1\web
+2015.02.25 10:34:05 INFO  web[o.e.plugins]  [sonar-1424856835299] loaded [], sites []
+2015.02.25 10:34:06 INFO  web[o.s.s.p.ServerImpl]  SonarQube Server / 5.0.1 / 2c86ad5a003cfe6db1287a25c35acfa0561300c9
+2015.02.25 10:34:09 INFO  web[o.s.s.d.EmbeddedDatabase]  Starting embedded database on port 9092 with url jdbc:h2:tcp://localhost:9092/sonar
+2015.02.25 10:34:09 INFO  web[o.s.s.d.EmbeddedDatabase]  Embedded database started. Data stored in: C:\Users\oscar\Documents\CS_practica\sonarQube\sonarqube-5.0.1\data
+2015.02.25 10:34:09 INFO  web[o.s.c.p.Database]  Create JDBC datasource for jdbc:h2:tcp://localhost:9092/sonar
+2015.02.25 10:34:10 WARN  web[o.s.s.d.DatabaseChecker]  H2 database should be used for evaluation purpose only
+2015.02.25 10:34:11 INFO  web[o.s.s.p.DefaultServerFileSystem]  SonarQube home: C:\Users\oscar\Documents\CS_practica\sonarQube\sonarqube-5.0.1
+2015.02.25 10:34:11 INFO  web[o.s.a.u.TimeProfiler]  Install plugins...
+2015.02.25 10:34:11 INFO  web[o.s.s.p.ServerPluginJarsInstaller]  Deploy plugin Core / 5.0.1 / 2c86ad5a003cfe6db1287a25c35acfa0561300c9
+2015.02.25 10:34:11 INFO  web[o.s.s.p.ServerPluginJarsInstaller]  Deploy plugin Email notifications / 5.0.1 / 2c86ad5a003cfe6db1287a25c35acfa0561300c9
+2015.02.25 10:34:11 INFO  web[o.s.s.p.ServerPluginJarsInstaller]  Deploy plugin Findbugs / 2.4 / a334be36ba4374bb779255272c53fb08675ac2c2
+2015.02.25 10:34:11 INFO  web[o.s.s.p.ServerPluginJarsInstaller]  Deploy plugin Java / 2.8 / 20a3d682b1334eb1857e7bc8a40e11f04fed9528
+2015.02.25 10:34:11 INFO  web[o.s.s.p.ServerPluginJarsInstaller]  Deploy plugin Git / 5.0.1 / 2c86ad5a003cfe6db1287a25c35acfa0561300c9
+2015.02.25 10:34:11 INFO  web[o.s.s.p.ServerPluginJarsInstaller]  Deploy plugin Duplications / 5.0.1 / 2c86ad5a003cfe6db1287a25c35acfa0561300c9
+2015.02.25 10:34:11 INFO  web[o.s.s.p.ServerPluginJarsInstaller]  Deploy plugin English Pack / 5.0.1 / 2c86ad5a003cfe6db1287a25c35acfa0561300c9
+2015.02.25 10:34:11 INFO  web[o.s.s.p.ServerPluginJarsInstaller]  Deploy plugin SVN / 5.0.1 / 2c86ad5a003cfe6db1287a25c35acfa0561300c9
+2015.02.25 10:34:11 INFO  web[o.s.a.u.TimeProfiler]  Install plugins done: 221 ms
+2015.02.25 10:34:11 INFO  web[o.s.s.p.RailsAppsDeployer]  Deploy Ruby on Rails applications
+2015.02.25 10:34:11 INFO  web[o.s.j.s.AbstractDatabaseConnector]  Initializing Hibernate
+2015.02.25 10:34:12 INFO  web[o.s.s.p.UpdateCenterClient]  Update center: http://update.sonarsource.org/update-center.properties (no proxy)
+2015.02.25 10:34:12 INFO  web[o.s.s.n.NotificationService]  Notification service started (delay 60 sec.)
+2015.02.25 10:34:12 INFO  web[o.s.s.s.IndexSynchronizer]  Index rules for updates after Wed Feb 25 10:27:56 CET 2015
+2015.02.25 10:34:13 INFO  web[o.s.s.s.IndexSynchronizer]  Index activeRules for updates after Wed Feb 25 10:28:01 CET 2015
+2015.02.25 10:34:13 INFO  web[o.s.s.s.IndexSynchronizer]  Index sonarLogs for updates after Wed Feb 25 10:28:01 CET 2015
+2015.02.25 10:34:13 INFO  web[o.s.s.s.IndexSynchronizer]  Index issues
+2015.02.25 10:34:13 INFO  web[o.s.s.s.IndexSynchronizer]  Index source files
+2015.02.25 10:34:13 INFO  web[o.s.a.u.TimeProfiler]  Load metrics...
+2015.02.25 10:34:13 INFO  web[o.s.s.s.RegisterMetrics]  Cleaning quality gate conditions
+2015.02.25 10:34:13 INFO  web[o.s.a.u.TimeProfiler]  Load metrics done: 245 ms
+2015.02.25 10:34:13 INFO  web[o.s.s.s.RegisterDebtModel]  Register technical debt model...
+2015.02.25 10:34:14 INFO  web[o.s.s.s.RegisterDebtModel]  Register technical debt model done: 5 ms
+2015.02.25 10:34:14 INFO  web[o.s.a.u.TimeProfiler]  Register rules...
+2015.02.25 10:34:14 INFO  web[o.s.a.u.TimeProfiler]  Register rules done: 782 ms
+2015.02.25 10:34:14 INFO  web[o.s.s.q.RegisterQualityProfiles]  Register Quality Profiles...
+2015.02.25 10:34:15 INFO  web[o.s.s.q.RegisterQualityProfiles]  Register Quality Profiles done: 750 ms
+2015.02.25 10:34:15 INFO  web[o.s.s.s.RegisterNewMeasureFilters]  Register measure filters...
+2015.02.25 10:34:15 INFO  web[o.s.s.s.RegisterNewMeasureFilters]  Register measure filters done: 2 ms
+2015.02.25 10:34:15 INFO  web[o.s.s.s.RegisterDashboards]  Register dashboards...
+2015.02.25 10:34:15 INFO  web[o.s.s.s.RegisterDashboards]  Register dashboards done: 5 ms
+2015.02.25 10:34:15 INFO  web[o.s.s.s.RegisterPermissionTemplates]  Register permission templates...
+2015.02.25 10:34:15 INFO  web[o.s.s.s.RegisterPermissionTemplates]  Register permission templates done: 1 ms
+2015.02.25 10:34:15 INFO  web[o.s.s.s.RenameDeprecatedPropertyKeys]  Rename deprecated property keys
+2015.02.25 10:34:15 INFO  web[o.s.s.c.AnalysisReportTaskLauncher]  AnalysisReportTaskLauncher started
+2015.02.25 10:34:15 INFO  web[jruby.rack]  jruby 1.7.9 (ruby-1.8.7p370) 2013-12-06 87b108a on Java HotSpot(TM) 64-Bit Server VM 1.8.0_31-b13 [Windows 8.1-amd64]
+2015.02.25 10:34:15 INFO  web[jruby.rack]  using a shared (threadsafe!) runtime
+2015.02.25 10:34:25 INFO  web[jruby.rack]  keeping custom (config.logger) Rails logger instance
+2015.02.25 10:34:25 INFO  web[o.s.s.app.Logging]  Web server is started
+2015.02.25 10:34:26 INFO  app[o.s.p.m.Monitor] Process[web] is up

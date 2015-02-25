@@ -1,0 +1,8 @@
+core,true,sonar-core-plugin-5.0.1.jar|479089396c0defd44769d1159cb99fad
+emailnotifications,true,sonar-email-notifications-plugin-5.0.1.jar|71e017c54c290a5f3034921773c7b56c
+findbugs,false,sonar-findbugs-plugin-2.4.jar|bb0bf263ef1e0d56f569878732060cc9
+java,false,sonar-java-plugin-2.8.jar|8798739453f127005026561bd0588989
+git,true,sonar-scm-git-plugin-5.0.1.jar|804b512ae4e27ff4036253eb974aa513
+cpd,true,sonar-cpd-plugin-5.0.1.jar|3edb43aeb518196134fa6f61b5a1dc8b
+l10nen,true,sonar-l10n-en-plugin-5.0.1.jar|6bbff54d3770ee0c4919c25a238eac17
+svn,true,sonar-scm-svn-plugin-5.0.1.jar|5f4cb5016cc86bb7d4d301841770101b
