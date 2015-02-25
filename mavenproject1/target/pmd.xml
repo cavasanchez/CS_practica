@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.0.2" timestamp="2015-02-25T09:50:27.969">
+<file name="C:\Users\oscar\Documents\NetBeansProjects\mavenproject1\src\main\java\com\mycompany\mavenproject1\main.java">
+<violation beginline="5" endline="5" begincolumn="1" endcolumn="22" rule="UnusedImports" ruleset="Import Statements" package="com.mycompany.mavenproject1" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.awt.Point'
+</violation>
+<violation beginline="8" endline="8" begincolumn="1" endcolumn="39" rule="UnusedImports" ruleset="Import Statements" package="com.mycompany.mavenproject1" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'uHotDrawFigures.uPolylineFigure'
+</violation>
+</file>
+<file name="C:\Users\oscar\Documents\NetBeansProjects\mavenproject1\src\main\java\uHotDrawFigures\iFigure.java">
+<violation beginline="17" endline="17" begincolumn="12" endcolumn="35" rule="UnusedModifier" ruleset="Unused Code" package="uHotDrawFigures" class="iFigure" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/unusedcode.html#UnusedModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="18" endline="18" begincolumn="12" endcolumn="52" rule="UnusedModifier" ruleset="Unused Code" package="uHotDrawFigures" class="iFigure" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/unusedcode.html#UnusedModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="19" endline="19" begincolumn="12" endcolumn="45" rule="UnusedModifier" ruleset="Unused Code" package="uHotDrawFigures" class="iFigure" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/unusedcode.html#UnusedModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="20" endline="20" begincolumn="12" endcolumn="37" rule="UnusedModifier" ruleset="Unused Code" package="uHotDrawFigures" class="iFigure" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/unusedcode.html#UnusedModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="21" endline="21" begincolumn="12" endcolumn="52" rule="UnusedModifier" ruleset="Unused Code" package="uHotDrawFigures" class="iFigure" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/unusedcode.html#UnusedModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="22" endline="22" begincolumn="12" endcolumn="35" rule="UnusedModifier" ruleset="Unused Code" package="uHotDrawFigures" class="iFigure" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/unusedcode.html#UnusedModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+</file>
+<file name="C:\Users\oscar\Documents\NetBeansProjects\mavenproject1\src\main\java\uHotDrawFigures\uCompositeFigure.java">
+<violation beginline="6" endline="6" begincolumn="1" endcolumn="39" rule="ImportFromSamePackage" ruleset="Import Statements" package="uHotDrawFigures" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/imports.html#ImportFromSamePackage" priority="3">
+No need to import a type that lives in the same package
+</violation>
+</file>
+<file name="C:\Users\oscar\Documents\NetBeansProjects\mavenproject1\src\main\java\uHotDrawFigures\uPolylineFigure.java">
+<violation beginline="46" endline="46" begincolumn="16" endcolumn="27" rule="UselessParentheses" ruleset="Unnecessary" package="uHotDrawFigures" class="uPolylineFigure" method="containsPoint" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="46" endline="46" begincolumn="32" endcolumn="40" rule="UselessParentheses" ruleset="Unnecessary" package="uHotDrawFigures" class="uPolylineFigure" method="containsPoint" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="48" endline="48" begincolumn="23" endcolumn="50" rule="UselessParentheses" ruleset="Unnecessary" package="uHotDrawFigures" class="uPolylineFigure" method="containsPoint" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="48" endline="48" begincolumn="24" endcolumn="34" rule="UselessParentheses" ruleset="Unnecessary" package="uHotDrawFigures" class="uPolylineFigure" method="containsPoint" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="48" endline="48" begincolumn="39" endcolumn="49" rule="UselessParentheses" ruleset="Unnecessary" package="uHotDrawFigures" class="uPolylineFigure" method="containsPoint" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="C:\Users\oscar\Documents\NetBeansProjects\mavenproject1\src\main\java\uHotDrawFramework\uDrawingEditor.java">
+<violation beginline="16" endline="16" begincolumn="1" endcolumn="39" rule="UnusedImports" ruleset="Import Statements" package="uHotDrawFramework" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'uHotDrawFigures.uPolylineFigure'
+</violation>
+<violation beginline="106" endline="106" begincolumn="18" endcolumn="33" rule="UnusedPrivateMethod" ruleset="Unused Code" package="uHotDrawFramework" class="uDrawingEditor" method="initComponents" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/unusedcode.html#UnusedPrivateMethod" priority="3">
+Avoid unused private methods such as 'initComponents()'.
+</violation>
+</file>
+<file name="C:\Users\oscar\Documents\NetBeansProjects\mavenproject1\src\main\java\uHotDrawFramework\uDrawingView.java">
+<violation beginline="14" endline="14" begincolumn="1" endcolumn="24" rule="UnusedImports" ruleset="Import Statements" package="uHotDrawFramework" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'javax.tools.Tool'
+</violation>
+<violation beginline="73" endline="73" begincolumn="18" endcolumn="33" rule="UnusedPrivateMethod" ruleset="Unused Code" package="uHotDrawFramework" class="uDrawingView" method="initComponents" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/unusedcode.html#UnusedPrivateMethod" priority="3">
+Avoid unused private methods such as 'initComponents()'.
+</violation>
+</file>
+<file name="C:\Users\oscar\Documents\NetBeansProjects\mavenproject1\src\main\java\uTools\uPolylineCrationTool.java">
+<violation beginline="11" endline="11" begincolumn="1" endcolumn="39" rule="UnusedImports" ruleset="Import Statements" package="uTools" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'uHotDrawFigures.uAbstractFigure'
+</violation>
+</file>
+</pmd>
