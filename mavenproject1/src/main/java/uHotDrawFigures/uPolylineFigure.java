@@ -11,7 +11,9 @@ import java.awt.Graphics;
 import java.awt.Point;
 import java.util.ArrayList;
 import java.util.Iterator;
-
+import java.applet.Applet;
+import java.applet.AudioClip;
+import java.beans.Beans;
 /**
  *
  * @author oscar

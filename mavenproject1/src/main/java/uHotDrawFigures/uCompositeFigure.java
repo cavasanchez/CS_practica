@@ -4,7 +4,9 @@ package uHotDrawFigures;
 import java.awt.Graphics;
 import java.util.ArrayList;
 import uHotDrawFigures.uAbstractFigure;
-
+import java.applet.Applet;
+import java.applet.AudioClip;
+import java.beans.Beans;
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates

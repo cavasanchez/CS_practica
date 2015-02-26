@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="5.0.2" timestamp="2015-02-25T09:50:27.969">
+<pmd version="5.0.2" timestamp="2015-02-26T15:56:20.769">
 <file name="C:\Users\oscar\Documents\NetBeansProjects\mavenproject1\src\main\java\com\mycompany\mavenproject1\main.java">
 <violation beginline="5" endline="5" begincolumn="1" endcolumn="22" rule="UnusedImports" ruleset="Import Statements" package="com.mycompany.mavenproject1" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.0.2/rules/java/imports.html#UnusedImports" priority="4">
 Avoid unused imports such as 'java.awt.Point'

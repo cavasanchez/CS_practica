@@ -20,5 +20,6 @@ public class uDrawing extends uCompositeFigure{
 public uDrawing(){
     super();
     figuras=new ArrayList<uCompositeFigure>();
+    System.out.print(this);
 }
 }
